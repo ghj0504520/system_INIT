@@ -1,10 +1,10 @@
 apt-get:
 cairo-dock
 chromium-browser
-clang
 filezilla
 gcc
 g++
+clang
 gimp
 git
 gparted
@@ -22,6 +22,7 @@ vim
 vim-gnome
 vlc
 valgrind
+vsftpd
 
 ========================================
 not apt-get:
@@ -31,6 +32,7 @@ gcc4_9
 ubuntu-tweak
 java
 virtualbox
+remarkable
 
 ========================================
 eclipse
