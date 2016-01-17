@@ -1,0 +1,18 @@
+sudo tar -zxvf eclipse-SDK-X.X.X-linux-gtk.tar.gz -C /opt
+
+sudo ln -s /opt/eclipse/eclipse /usr/local/bin/
+
+sudo vim /usr/share/applications/eclipse.desktop
+====================================
+[Desktop Entry]
+Name=Eclipse
+Type=Application
+Exec=/opt/eclipse/eclipse
+Terminal=false
+Icon=/opt/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE
+Name[en]=Eclipse
+====================================
+
