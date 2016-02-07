@@ -28,7 +28,7 @@ vsftpd
 not apt-get:
 chrome
 sublime3
-gcc4_9
+gcc_new
 ubuntu-tweak
 java
 virtualbox
