@@ -45,9 +45,11 @@ Sublime3:
 GCC4_9:
 	sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 	sudo apt-get update
-	sudo apt-get -y -f install gcc-4.9 g++-4.9
+	sudo apt-get -y -f install gcc-4.9 g++-4.9 gcc-5 g++-5
+	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60
 	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 50
 	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40
+	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 60
 	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 50
 	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 40
 	sudo update-alternatives --config gcc
