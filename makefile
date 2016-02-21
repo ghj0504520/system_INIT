@@ -1,6 +1,6 @@
 all:INIT_install
 
-INIT_install: apt_get not_apt_get git_config
+INIT_install: apt_get not_apt_get git_config build_kernel
 
 apt_get:
 	sudo apt-get update
@@ -84,3 +84,6 @@ git_config:
 	git config --global user.name "ghj0504520"
 	git config --global user.email "ghj0504520.cywjjy@gmail.com"
 	git config --global core.editor "vim"
+
+build_kernel:
+	sudo apt-get install build-essential kernel-package libncurses5-dev
