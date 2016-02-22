@@ -42,3 +42,7 @@ sublime3
 vim
 vsftpd
 
+========================================
+build_kernel:
+essential package for ubuntu self-compiled kernel 
+

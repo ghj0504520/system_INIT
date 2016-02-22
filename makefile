@@ -86,4 +86,4 @@ git_config:
 	git config --global core.editor "vim"
 
 build_kernel:
-	sudo apt-get install build-essential kernel-package libncurses5-dev
+	sudo apt-get install build-essential kernel-package libncurses5 libncurses5-dev libssl-dev
