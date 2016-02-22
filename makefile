@@ -29,7 +29,7 @@ apt_get:
 	sudo apt-get -y -f install valgrind
 	sudo apt-get -y -f install vsftpd
 
-not_apt_get: Chrome Sublime3 GCC_NEW Ubuntu_tweak Java VirtualBox Remarkable
+not_apt_get: Chrome Sublime3 GCC_NEW Ubuntu_tweak Java VirtualBox Remarkable SSH
 
 Chrome:
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
@@ -87,3 +87,7 @@ git_config:
 
 build_kernel:
 	sudo apt-get install build-essential kernel-package libncurses5 libncurses5-dev libssl-dev
+
+SSH:
+	sudo apt-get install openssh-server
+	sudo gedit /etc/ssh/sshd_config

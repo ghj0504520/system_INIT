@@ -46,3 +46,8 @@ vsftpd
 build_kernel:
 essential package for ubuntu self-compiled kernel 
 
+========================================
+ssh
+#PermitRootLogin without-password
+PermitRootLogin No
+
