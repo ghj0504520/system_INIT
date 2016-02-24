@@ -1,6 +1,21 @@
-all:INIT_install
+all:default
 
-INIT_install: apt_get not_apt_get git_config build_kernel
+INIT_install: apt-get not_apt_get git_config build_kernel
+
+default:
+	@echo
+	@echo "==============================================================================\n"
+	@echo "ghj0504520 create for ubuntu-14.04LTS X86_64 installation initialization"
+	@echo
+	@echo "you can direct type \"make INIT_install\""
+	@echo
+	@echo "type \"make apt-get\""
+	@echo
+	@echo "type \"make not_apt_get\" \n(contain Chrome/ Sublime3/ GCC_NEW/ Ubuntu_tweak/ Java/ VirtualBox/ Remarkable/ SSH)"
+	@echo
+	@echo "type \"make build_kernel\" for self compile kernel"
+	@echo "\n=============================================================================="
+	@echo
 
 apt_get:
 	sudo apt-get update
