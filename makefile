@@ -44,7 +44,7 @@ apt_get:
 	sudo apt-get -y -f install valgrind
 	sudo apt-get -y -f install vsftpd
 
-not_apt_get: Chrome Sublime3 GCC_NEW Ubuntu_tweak Java VirtualBox Remarkable SSH
+not_apt_get: Chrome Sublime3 GCC_NEW Ubuntu_tweak Java VirtualBox Remarkable SSH DOCKER
 
 Chrome:
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
@@ -60,13 +60,9 @@ Sublime3:
 GCC_NEW:
 	sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 	sudo apt-get update
-	sudo apt-get -y -f install gcc-4.9 g++-4.9 gcc-5 g++-5
+	sudo apt-get -y -f install gcc-5 g++-5
 	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60
-	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 50
-	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 40
 	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 60
-	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 50
-	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 40
 	sudo update-alternatives --config gcc
 	sudo update-alternatives --config g++
 
@@ -106,3 +102,6 @@ build_kernel:
 SSH:
 	sudo apt-get install openssh-server
 	sudo gedit /etc/ssh/sshd_config
+
+DOCKER:
+	curl -sSL https://get.docker.com | sudo sh
