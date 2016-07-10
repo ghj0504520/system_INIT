@@ -1,19 +1,21 @@
-apt-get:
+========apt-get========================
 cairo-dock
 chromium-browser
+easy-tag
+emacs
 filezilla
-gcc
-g++
+gcc/g++
 clang
 gimp
 git
 gparted
+vsftpd
 guake
-nautilus-open-terminal
+valgrind
+npm
 p7zip-full
 rar
 zip
-synaptic
 tmux
 ufw
 gufw
@@ -21,20 +23,25 @@ unity-tweak-tool
 vim
 vim-gnome
 vlc
-valgrind
-vsftpd
+synaptic
 
-========================================
-not apt-get:
-chrome
-sublime3
-gcc_new
-ubuntu-tweak
-java
-virtualbox
-remarkable
+========not apt-get====================
+Chrome
+Remarkable
+Vbox
+Atom
+Sublime
+GccNew
+UbuntuTweak
+Java
+Docker
+Nvm
+Go
 
-========================================
+
+
+========config=========================
+cairo-dock
 eclipse
 fail2ban
 grub
@@ -42,14 +49,15 @@ sublime3
 vim
 vsftpd
 
-========================================
-build_kernel:
-essential package for ubuntu self-compiled kernel 
+========dev============================
+essential package for development
 
-========================================
-ssh
+========ssh============================
 #PermitRootLogin without-password
 PermitRootLogin No
 
-========================================
-docker
+========docker=========================
+go + docker
+
+========node.js========================
+nvm + npm
