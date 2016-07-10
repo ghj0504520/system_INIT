@@ -55,6 +55,8 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/synaptic)
 26. ssh  
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
+27. gdebi  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/gdebi)
 
 ##### PPA or Other
 ***
@@ -70,8 +72,8 @@
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/sublime-text-3)
 6. gcc/g++-6  
   [source](https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test)
-7. ubuntu-tweak  
-  [source](https://launchpad.net/~tualatrix/+archive/ubuntu/ppa)
+7. vscode  
+  [source](https://code.visualstudio.com/Download)
 8. java  
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
 9. docker  

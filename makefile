@@ -13,18 +13,12 @@ default:
 	@echo "[APT   ]  default application"
 	@echo "[CONFIG]  configure setting"
 	@echo "[DEV   ]  development package"
+	@echo "[DEVK  ]  compile kernel package"
 	@echo "[INIT  ]  default install and setting"
 	@echo "[OTHER ]  PPA or Other application"
 	@echo 
 	@echo "\n=============================================================================="
 	@echo
-
-
-
-
-DEV:
-	sudo apt update
-	sudo apt -y -f install build-essential kernel-package libncurses5 libncurses5-dev libssl-dev
 
 
 
@@ -62,11 +56,27 @@ APT:
 	sudo apt -y -f install vim-gnome
 	sudo apt -y -f install vlc
 	sudo apt -y -f install synaptic
+	sudo apt -y -f install gdebi
 	
 
+CONFIG:Git
+
+
+DEV:
+	sudo apt update
+	sudo apt -y -f install build-essential libssl-dev
+
+
+DEVK:
+	sudo apt update
+	sudo apt -y -f install kernel-package libncurses5 libncurses5-dev
 
 
 OTHER:Chrome Remarkable Vbox Atom Sublime GccNew UbuntuTweak Java Docker Nvm Go
+
+
+
+
 
 Chrome:
 	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
@@ -76,7 +86,7 @@ Chrome:
 
 Remarkable:
 	wget https://remarkableapp.github.io/files/remarkable_1.75_all.deb
-	sudo dpkg -i remarkable_1.75_all.deb
+	sudo gdebi remarkable_1.75_all.deb
 
 Vbox:
 	sudo apt update 
@@ -107,18 +117,13 @@ GccNew:
 	sudo update-alternatives --config gcc
 	sudo update-alternatives --config g++
 
-UbuntuTweak:
-	sudo add-apt-repository -y ppa:tualatrix/ppa
-	sudo apt update
-	sudo apt -y -f install ubuntu-tweak
-
 Java:
 	sudo add-apt-repository -y ppa:webupd8team/java
 	sudo apt update
 	sudo apt -y -f install oracle-java9-installer
 
 Docker:
-	curl -sSL https://get.docker.com/ubuntu/ | sudo sh
+	curl -sSL https://get.docker.com | sudo sh
 
 Nvm:
 	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
@@ -131,19 +136,12 @@ Go:
 
 
 
-CONFIG:Git NodeJS
 
 Git:
 	git config --global user.name "ghj0504520"
 	git config --global user.email "ghj0504520.cywjjy@gmail.com"
 	git config --global core.editor "vim"
-	
-NodeJS:
-	source ~/.profile
-	nvm install 0.12.10
-	nvm use 0.12
-	nvm alias default 0.12.10
-	nvm use default
+
 
 
 

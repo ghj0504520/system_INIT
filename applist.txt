@@ -24,20 +24,21 @@ vim
 vim-gnome
 vlc
 synaptic
+gdebi
 
-========not apt-get====================
+========PPA or other===================
 Chrome
 Remarkable
 Vbox
 Atom
 Sublime
 GccNew
-UbuntuTweak
 Java
 Docker
 Nvm
 Go
-
+VScode
+Eclipse
 
 
 ========config=========================
@@ -48,9 +49,13 @@ grub
 sublime3
 vim
 vsftpd
+node.js
 
 ========dev============================
 essential package for development
+
+========compile kernel=================
+self build kernel
 
 ========ssh============================
 #PermitRootLogin without-password

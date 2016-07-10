@@ -1,0 +1,9 @@
+source ~/.profile
+
+nvm install 0.12.10
+
+nvm use 0.12
+
+nvm alias default 0.12.10
+
+nvm use default
