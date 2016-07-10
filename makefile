@@ -93,8 +93,8 @@ Vbox:
 	sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" >> /etc/apt/sources.list.d/virtualbox.list'
 	sudo apt update
 	sudo apt -y -f install virtualbox
-	wget http://download.virtualbox.org/virtualbox/5.0.12/Oracle_VM_VirtualBox_Extension_Pack-5.0.12-104815.vbox-extpack
-	sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.12-104815.vbox-extpack
+	wget http://download.virtualbox.org/virtualbox/5.0.18/Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack
+	sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack
 
 Atom:
 	sudo add-apt-repository ppa:webupd8team/atom
