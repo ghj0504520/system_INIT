@@ -72,7 +72,7 @@ DEVK:
 	sudo apt -y -f install kernel-package libncurses5 libncurses5-dev
 
 
-OTHER:Chrome Remarkable Vbox Atom Sublime GccNew UbuntuTweak Java Docker Nvm Go
+OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go
 
 
 
@@ -89,12 +89,10 @@ Remarkable:
 	sudo gdebi remarkable_1.75_all.deb
 
 Vbox:
-	sudo apt update 
-	sudo apt -y -f install dkms
 	wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
 	sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" >> /etc/apt/sources.list.d/virtualbox.list'
 	sudo apt update
-	sudo apt -y -f install virtualbox-5.0
+	sudo apt -y -f install virtualbox
 	wget http://download.virtualbox.org/virtualbox/5.0.12/Oracle_VM_VirtualBox_Extension_Pack-5.0.12-104815.vbox-extpack
 	sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.12-104815.vbox-extpack
 
