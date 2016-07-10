@@ -97,7 +97,7 @@ Vbox:
 	sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack
 
 Atom:
-	sudo add-apt-repository ppa:webupd8team/atom
+	sudo add-apt-repository -y ppa:webupd8team/atom
 	sudo apt update
 	sudo apt -y -f install atom
 
@@ -127,7 +127,7 @@ Nvm:
 	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
 
 Go:
-	sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
+	sudo add-apt-repository -y ppa:ubuntu-lxc/lxd-stable
 	sudo apt update
 	sudo apt -y -f install golang
 
@@ -146,5 +146,5 @@ Git:
 
 #else application
 Ssh:
-	sudo apt install openssh-server
+	sudo apt -y -f install openssh-server
 	sudo gedit /etc/ssh/sshd_config
