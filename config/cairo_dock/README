@@ -1,0 +1,12 @@
+1. auto startup cairo dock need to manually setting ubuntu startup
+
+2. use auto startup may cause cannot power off , need to fix file ~
+	/usr/lib/x86_64-linux-gnu/cairo-dock/cairo-dock-launcher-API-daemon
+
+
+	33th line insert : from time import sleep
+
+	241th line insert : sleep(5)
+
+	
+	then reboot
