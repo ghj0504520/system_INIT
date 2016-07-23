@@ -82,3 +82,7 @@
   [source](https://github.com/creationix/nvm)	
 11. go  
   [source](https://launchpad.net/~ubuntu-lxc/+archive/ubuntu/lxd-stable)
+12. eclipse
+  [source](https://www.eclipse.org/downloads/eclipse-packages/)
+13. webstorm
+  [source](https://www.jetbrains.com/webstorm/download)

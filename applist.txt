@@ -39,7 +39,7 @@ Nvm
 Go
 VScode
 Eclipse
-
+Webstorm
 
 ========config=========================
 cairo-dock
@@ -50,6 +50,7 @@ sublime3
 vim
 vsftpd
 node.js
+webstorm
 
 ========dev============================
 essential package for development
