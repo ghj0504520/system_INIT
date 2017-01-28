@@ -86,7 +86,7 @@
   [source](https://www.eclipse.org/downloads/eclipse-packages/)
 13. webstorm  
   [source](https://www.jetbrains.com/webstorm/download)
-14. LNMP
+14. LNMP  
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
   [mysql](https://www.mysql.com/downloads/)
