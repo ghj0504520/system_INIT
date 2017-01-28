@@ -16,6 +16,7 @@ default:
 	@echo "[DEVK  ]  compile kernel package"
 	@echo "[INIT  ]  default install and setting"
 	@echo "[OTHER ]  PPA or Other application"
+	@echo "[LNMP  ]  linux + nginx + mysql + php-7.0"
 	@echo 
 	@echo "\n=============================================================================="
 	@echo
@@ -72,7 +73,7 @@ DEVK:
 	sudo apt -y -f install kernel-package libncurses5 libncurses5-dev
 
 
-OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go
+OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go LNMP
 
 
 
@@ -131,6 +132,19 @@ Go:
 	sudo apt update
 	sudo apt -y -f install golang
 
+LNMP:
+	wget http://nginx.org/keys/nginx_signing.key
+	sudo apt-key add nginx_signing.key
+	sudo sh -c 'echo "deb http://nginx.org/packages/ubuntu/ trusty nginx" >> /etc/apt/sources.list'
+	sudo sh -c 'echo "deb-src http://nginx.org/packages/ubuntu/ trusty nginx" >> /etc/apt/sources.list'
+	sudo apt-get update
+	sudo apt-get install nginx
+	sudo apt-get install mysql-server-5.6 mysql-client-5.6
+	mysql -uroot -p
+	sudo apt-get install python-software-properties software-properties-common
+	sudo add-apt-repository ppa:ondrej/php
+	sudo apt-get update
+	sudo apt-get install php7.0-fpm php7.0-mysql php7.0-common php7.0-curl php7.0-cli php7.0-mcrypt php7.0-mbstring php7.0-dom
 
 
 
