@@ -149,7 +149,7 @@ LNMP:
 Screenlets:
 	sudo add-apt-repository ppa:screenlets/ppa
 	sudo apt update
-	sudo apt install screenlets screenlets-pack-all
+	sudo apt -y -f install screenlets screenlets-pack-all
 
 
 Git:
