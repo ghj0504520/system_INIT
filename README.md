@@ -57,6 +57,8 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
 27. gdebi  
   [source](https://launchpad.net/ubuntu/xenial/amd64/gdebi)
+28. psensor  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/psensor)
 
 ##### PPA or Other
 ***
@@ -70,7 +72,7 @@
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/atom)
 5. sublime3  
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/sublime-text-3)
-6. gcc/g++-6  
+6. gcc/g++-new  
   [source](https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test)
 7. vscode  
   [source](https://code.visualstudio.com/Download)
@@ -90,3 +92,5 @@
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
   [mysql](https://www.mysql.com/downloads/)
+15. screenlets
+  [source](https://launchpad.net/~screenlets/+archive/ubuntu/ppa)

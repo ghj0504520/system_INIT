@@ -25,6 +25,7 @@ vim-gnome
 vlc
 synaptic
 gdebi
+psensor
 
 ========PPA or other===================
 Chrome
@@ -41,6 +42,7 @@ VScode
 Eclipse
 Webstorm
 LNMP(nginx + mysql + php-7.0)
+screenlets
 
 ========config=========================
 cairo-dock

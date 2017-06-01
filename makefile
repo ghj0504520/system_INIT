@@ -58,7 +58,7 @@ APT:
 	sudo apt -y -f install vlc
 	sudo apt -y -f install synaptic
 	sudo apt -y -f install gdebi
-	
+	sudo apt -y -f install psensor
 
 CONFIG:Git
 
@@ -73,7 +73,7 @@ DEVK:
 	sudo apt -y -f install kernel-package libncurses5 libncurses5-dev
 
 
-OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go LNMP
+OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go LNMP Screenlets
 
 
 
@@ -110,9 +110,9 @@ Sublime:
 GccNew:
 	sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 	sudo apt update
-	sudo apt -y -f install gcc-6 g++-6
-	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60
-	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 60
+	sudo apt -y -f install gcc-7 g++-7
+	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 60
+	sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 60
 	sudo update-alternatives --config gcc
 	sudo update-alternatives --config g++
 
@@ -146,7 +146,10 @@ LNMP:
 	sudo apt-get update
 	sudo apt-get install php7.0-fpm php7.0-mysql php7.0-common php7.0-curl php7.0-cli php7.0-mcrypt php7.0-mbstring php7.0-dom
 
-
+Screenlets:
+	sudo add-apt-repository ppa:screenlets/ppa
+	sudo apt update
+	sudo apt install screenlets screenlets-pack-all
 
 
 Git:
