@@ -2,93 +2,77 @@
 #### ubuntu-14.04LTS X86_64 system installation initialize
 ##### apt
 ***
-1. cairo-dock  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/cairo-dock)
-2. chromium-browser  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/chromium-browser)
-3. easy-tag  
+1. easy-tag  
   [source](https://launchpad.net/ubuntu/xenial/amd64/easytag)
-4. emacs  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/emacs)
-5. filezilla  
+2. filezilla  
   [source](https://launchpad.net/ubuntu/xenial/amd64/filezilla)
-6. gcc/g++-stable  
+3. gcc/g++-stable  
   [C   source](https://launchpad.net/ubuntu/xenial/amd64/gcc)  
   [CPP source](https://launchpad.net/ubuntu/xenial/amd64/g++)
-7. clang  
+4. clang  
   [source](https://launchpad.net/ubuntu/xenial/amd64/clang)
-8. gimp  
+5. gimp  
   [source](https://launchpad.net/ubuntu/xenial/amd64/gimp)
-9. git  
+6. git  
   [source](https://launchpad.net/ubuntu/xenial/amd64/git)
-10. gparted  
+7. gparted  
   [source](https://launchpad.net/ubuntu/xenial/amd64/gparted)
-11. vsftpd  
+8. vsftpd  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vsftpd)
-12. guake  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/guake)
-13. valgrind  
+9. valgrind  
   [source](https://launchpad.net/ubuntu/xenial/amd64/valgrind)
-14. npm  
+10. mininet  
+  [source]()
+11. npm  
   [source](https://launchpad.net/ubuntu/xenial/amd64/npm)
-15. p7zip-full  
+12. p7zip-full  
   [source](https://launchpad.net/ubuntu/xenial/amd64/p7zip)
-16. rar  
+13. rar  
   [source](https://launchpad.net/ubuntu/xenial/amd64/rar)
-17. zip  
+14. zip  
   [source](https://launchpad.net/ubuntu/xenial/amd64/zip)
-18. tmux  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/tmux)
-19. ufw  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/ufw)
-20. gufw  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/gufw)
-21. unity-tweak-tool  
+15. unity-tweak-tool  
   [source](https://launchpad.net/ubuntu/xenial/amd64/unity-tweak-tool)
-22. vim  
+16. vim  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vim)
-23. vim-gnome  
+17. vim-gnome  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vim-gnome)
-24. vlc  
+18. vlc  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vlc)
-25. synaptic  
+19. synaptic  
   [source](https://launchpad.net/ubuntu/xenial/amd64/synaptic)
-26. ssh  
+20. ssh  
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
-27. gdebi  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/gdebi)
-28. psensor  
+21. psensor  
   [source](https://launchpad.net/ubuntu/xenial/amd64/psensor)
 
 ##### PPA or Other
 ***
 1. chrome  
   [source](https://www.google.com.tw/chrome/browser/desktop/)
-2. remarkable  
-  [source](https://remarkableapp.github.io)
-3. virtualbox  
+2. virtualbox  
   [source](https://www.virtualbox.org/wiki/Linux_Downloads)
-4. atom  
-  [source](https://launchpad.net/~webupd8team/+archive/ubuntu/atom)
-5. sublime3  
+3. sublime3  
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/sublime-text-3)
-6. gcc/g++-new  
+4. gcc/g++-new  
   [source](https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test)
-7. vscode  
+5. vscode  
   [source](https://code.visualstudio.com/Download)
-8. java  
+6. java  
   [source](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
-9. docker  
+7. docker  
   [source](https://get.docker.com/)
-10. nvm  
+8. nvm  
   [source](https://github.com/creationix/nvm)	
-11. go  
+9. go  
   [source](https://launchpad.net/~ubuntu-lxc/+archive/ubuntu/lxd-stable)
-12. eclipse  
+10. eclipse  
   [source](https://www.eclipse.org/downloads/eclipse-packages/)
-13. webstorm  
+11. webstorm  
   [source](https://www.jetbrains.com/webstorm/download)
-14. LNMP  
+12. intelliJ  
+  [source](https://www.jetbrains.com/webstorm/download)
+13. LNMP  
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
   [mysql](https://www.mysql.com/downloads/)

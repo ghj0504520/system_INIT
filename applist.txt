@@ -1,8 +1,5 @@
 ========apt-get========================
-cairo-dock
-chromium-browser
 easy-tag
-emacs
 filezilla
 gcc/g++
 clang
@@ -10,42 +7,37 @@ gimp
 git
 gparted
 vsftpd
-guake
 valgrind
+mininet
 npm
 p7zip-full
 rar
 zip
-tmux
-ufw
-gufw
 unity-tweak-tool
 vim
 vim-gnome
 vlc
 synaptic
-gdebi
+ssh
 psensor
 
 ========PPA or other===================
 Chrome
-Remarkable
 Vbox
-Atom
 Sublime
 GccNew
+VScode
 Java
 Docker
 Nvm
 Go
-VScode
 Eclipse
 Webstorm
+IntelliJ
 LNMP(nginx + mysql + php-7.0)
 screenlets
 
 ========config=========================
-cairo-dock
 eclipse
 fail2ban
 grub
@@ -54,6 +46,7 @@ vim
 vsftpd
 node.js
 webstorm
+intelliJ
 
 ========dev============================
 essential package for development
