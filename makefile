@@ -48,13 +48,11 @@ APT-NB:
 	sudo apt -y -f install gcc
 	sudo apt -y -f install g++
 	sudo apt -y -f install clang
+
 	sudo apt -y -f install gimp
 	sudo apt -y -f install git
 	sudo apt -y -f install gparted
-
-
 	sudo apt -y -f install valgrind
-	sudo apt -y -f install mininet
 	sudo apt -y -f install npm
 
 	sudo apt -y -f install p7zip-full
@@ -139,6 +137,12 @@ LNMP:
 	sudo add-apt-repository ppa:ondrej/php
 	sudo apt-get update
 	sudo apt-get install php7.0-fpm php7.0-mysql php7.0-common php7.0-curl php7.0-cli php7.0-mcrypt php7.0-mbstring php7.0-dom
+
+
+MN:
+	sudo apt -y -f install mininet
+	sudo apt -y -f install openvswitch-testcontroller
+	sudo cp /usr/bin/ovs-testcontroller /usr/bin/ovs-controller
 
 
 ONOS:

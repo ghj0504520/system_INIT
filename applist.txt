@@ -6,9 +6,7 @@ clang
 gimp
 git
 gparted
-vsftpd
 valgrind
-mininet
 npm
 p7zip-full
 rar
@@ -22,6 +20,8 @@ psensor
 curl
 adobe-flashplugin
 
+mininet(with openvswitch-testcontroller)
+vsftpd
 ssh
 quagga
 
