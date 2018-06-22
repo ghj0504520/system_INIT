@@ -1,6 +1,8 @@
 all:default
 
-INIT: DEV APT OTHER
+
+INIT: 
+
 
 default:
 	@echo
@@ -10,7 +12,8 @@ default:
 	@echo "make [parameter]"
 	@echo
 	@echo "parameter:"
-	@echo "[APT   ]  default application"
+	@echo "[APT-NB]  notebook default application"
+	@echo "[APT-PC]  pc default application"
 	@echo "[CONFIG]  configure setting"
 	@echo "[DEV   ]  development package"
 	@echo "[DEVK  ]  compile kernel package"
@@ -22,15 +25,16 @@ default:
 	@echo
 
 
-
-
-APT:
+APT-PC:
 	sudo apt update
 
-	sudo apt -y -f install cairo-dock
-	sudo apt -y -f install chromium-browser
+	sudo apt -y -f install vsftpd
+
+
+APT-NB:
+	sudo apt update
+
 	sudo apt -y -f install easytag
-	sudo apt -y -f install emacs
 	sudo apt -y -f install filezilla
 
 	sudo apt -y -f install gcc
@@ -40,12 +44,12 @@ APT:
 	sudo apt -y -f install git
 	sudo apt -y -f install gparted
 
-	sudo apt -y -f install vsftpd
-	sudo apt -y -f install guake
-	sudo apt -y -f install valgrind
-	sudo apt -y -f install npm
-	sudo apt -y -f install p7zip-full
 
+	sudo apt -y -f install valgrind
+	sudo apt -y -f install mininet
+	sudo apt -y -f install npm
+
+	sudo apt -y -f install p7zip-full
 	sudo apt -y -f install rar
 	sudo apt -y -f install zip
 	sudo apt -y -f install tmux
@@ -57,8 +61,9 @@ APT:
 	sudo apt -y -f install vim-gnome
 	sudo apt -y -f install vlc
 	sudo apt -y -f install synaptic
-	sudo apt -y -f install gdebi
 	sudo apt -y -f install psensor
+	sudo apt -y -f install curl
+
 
 CONFIG:Git
 
@@ -73,39 +78,24 @@ DEVK:
 	sudo apt -y -f install kernel-package libncurses5 libncurses5-dev
 
 
-OTHER:Chrome Remarkable Vbox Atom Sublime GccNew Java Docker Nvm Go LNMP Screenlets
-
-
-
+OTHER:Chrome Sublime GccNew Java
 
 
 Chrome:
-	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-	sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-	sudo apt update 
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+	echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+	sudo apt update
 	sudo apt -y -f install google-chrome-stable
 
-Remarkable:
-	wget https://remarkableapp.github.io/files/remarkable_1.75_all.deb
-	sudo gdebi remarkable_1.75_all.deb
 
 Vbox:
-	wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
-	sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" >> /etc/apt/sources.list.d/virtualbox.list'
-	sudo apt update
-	sudo apt -y -f install virtualbox
-	wget http://download.virtualbox.org/virtualbox/5.0.18/Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack
-	sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.0.18-106667.vbox-extpack
-
-Atom:
-	sudo add-apt-repository -y ppa:webupd8team/atom
-	sudo apt update
-	sudo apt -y -f install atom
+	
 
 Sublime:
 	sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 	sudo apt update
 	sudo apt -y -f install sublime-text-installer
+
 
 GccNew:
 	sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
@@ -116,21 +106,19 @@ GccNew:
 	sudo update-alternatives --config gcc
 	sudo update-alternatives --config g++
 
+
 Java:
 	sudo add-apt-repository -y ppa:webupd8team/java
 	sudo apt update
-	sudo apt -y -f install oracle-java9-installer
+	echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
+	sudo apt install oracle-java8-installer oracle-java8-set-default -y
+
 
 Docker:
-	curl -sSL https://get.docker.com | sudo sh
+
 
 Nvm:
-	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
 
-Go:
-	sudo add-apt-repository -y ppa:ubuntu-lxc/lxd-stable
-	sudo apt update
-	sudo apt -y -f install golang
 
 LNMP:
 	wget http://nginx.org/keys/nginx_signing.key
@@ -146,17 +134,14 @@ LNMP:
 	sudo apt-get update
 	sudo apt-get install php7.0-fpm php7.0-mysql php7.0-common php7.0-curl php7.0-cli php7.0-mcrypt php7.0-mbstring php7.0-dom
 
-Screenlets:
-	sudo add-apt-repository ppa:screenlets/ppa
-	sudo apt update
-	sudo apt -y -f install screenlets screenlets-pack-all
+
+ONOS:
 
 
 Git:
 	git config --global user.name "ghj0504520"
 	git config --global user.email "ghj0504520.cywjjy@gmail.com"
 	git config --global core.editor "vim"
-
 
 
 

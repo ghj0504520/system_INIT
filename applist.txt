@@ -20,6 +20,7 @@ vlc
 synaptic
 ssh
 psensor
+curl
 
 ========PPA or other===================
 Chrome
@@ -35,7 +36,6 @@ Eclipse
 Webstorm
 IntelliJ
 LNMP(nginx + mysql + php-7.0)
-screenlets
 
 ========config=========================
 eclipse

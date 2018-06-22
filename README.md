@@ -45,6 +45,8 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
 21. psensor  
   [source](https://launchpad.net/ubuntu/xenial/amd64/psensor)
+22. curl
+  [source](https://launchpad.net/ubuntu/xenial/amd64/curl)
 
 ##### PPA or Other
 ***
@@ -76,5 +78,4 @@
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
   [mysql](https://www.mysql.com/downloads/)
-15. screenlets  
-  [source](https://launchpad.net/~screenlets/+archive/ubuntu/ppa)
+
