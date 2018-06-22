@@ -19,7 +19,15 @@ default:
 	@echo "[DEVK  ]  compile kernel package"
 	@echo "[INIT  ]  default install and setting"
 	@echo "[OTHER ]  PPA or Other application"
+	@echo "[Chrome]  Chrome application"
+	@echo "[Sublime] Sublime application"
+	@echo "[GccNew]  Gcc New Version"
+	@echo "[Java  ]  JAVA8"
 	@echo "[LNMP  ]  linux + nginx + mysql + php-7.0"
+	@echo "[ONOS  ]  ONOS"
+	@echo "[ONOSD ]  ONOS Develop"
+	@echo "[SSH   ]  SSH"
+	@echo "[Quagga]  Quagga"
 	@echo 
 	@echo "\n=============================================================================="
 	@echo
@@ -63,6 +71,7 @@ APT-NB:
 	sudo apt -y -f install synaptic
 	sudo apt -y -f install psensor
 	sudo apt -y -f install curl
+	sudo apt -y -f install adobe-flashplugin
 
 
 CONFIG:Git
@@ -136,6 +145,9 @@ LNMP:
 
 
 ONOS:
+
+
+ONOSD:
 
 
 Git:

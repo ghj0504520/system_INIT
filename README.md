@@ -49,6 +49,8 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/curl)
 23. quagga  
   [source](https://launchpad.net/ubuntu/xenial/amd64/quagga)
+24. adobe-flashplugin  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/adobe-flashplugin)
 
 ##### PPA or Other
 ***
