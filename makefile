@@ -12,7 +12,7 @@ default:
 	@echo "make [parameter]"
 	@echo
 	@echo "parameter:"
-	@echo "[APT-NB]  notebook default application"
+	@echo "[APT-NB]  notebook default application(open Canonical Partners)"
 	@echo "[APT-PC]  pc default application"
 	@echo "[CONFIG]  configure setting"
 	@echo "[DEV   ]  development package"
@@ -60,9 +60,6 @@ APT-NB:
 	sudo apt -y -f install p7zip-full
 	sudo apt -y -f install rar
 	sudo apt -y -f install zip
-	sudo apt -y -f install tmux
-	sudo apt -y -f install ufw
-	sudo apt -y -f install gufw
 
 	sudo apt -y -f install unity-tweak-tool
 	sudo apt -y -f install vim

@@ -1,21 +1,20 @@
 download intelliJ tar.gz file
 
-$sudo tar -zxvf WebStorm-xxxx.x.tar.gz -C /opt
+$sudo tar -zxvf ideaIC-xxxx.x.tar.gz -C /opt
 
-$sudo ln -s /opt/WebStorm-xxx.xxx.xxx/bin/webstorm.sh /usr/local/bin/
+$sudo ln -s /opt/idea-IC-xxx.xxxx.xx/bin/idea.sh /usr/local/bin/
 
-$sudo vim /usr/share/applications/webstorm.desktop
+$sudo vim /usr/share/applications/intelliJ.desktop
 ====================================
 [Desktop Entry]
-Name=Webstorm
+Name=IntelliJ
 Type=Application
-Exec=/opt/WebStorm-xxx.xxx.xxx/bin/webstorm.sh
+Exec=/opt/idea-IC-xxx.xxxx.xx/bin/idea.sh
 Terminal=false
-Icon=/opt/WebStorm-xxx.xxx.xxx/bin/webstorm.svg
+Icon=/opt/idea-IC-xxx.xxxx.xx/bin/idea.png
 Comment=Integrated Development Environment
 NoDisplay=false
 Categories=Development;IDE
-Name[en]=Webstorm
+Name[en]=IntelliJ
 ====================================
 
-use license server to register webstorm

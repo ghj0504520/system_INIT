@@ -41,16 +41,17 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/vlc)
 19. synaptic  
   [source](https://launchpad.net/ubuntu/xenial/amd64/synaptic)
-20. ssh  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
-21. psensor  
+20. psensor  
   [source](https://launchpad.net/ubuntu/xenial/amd64/psensor)
-22. curl  
+21. curl  
   [source](https://launchpad.net/ubuntu/xenial/amd64/curl)
-23. quagga  
-  [source](https://launchpad.net/ubuntu/xenial/amd64/quagga)
-24. adobe-flashplugin  
+22. adobe-flashplugin  
   [source](https://launchpad.net/ubuntu/xenial/amd64/adobe-flashplugin)
+
+23. ssh  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
+24. quagga  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/quagga)
 
 ##### PPA or Other
 ***

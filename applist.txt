@@ -18,11 +18,12 @@ vim
 vim-gnome
 vlc
 synaptic
-ssh
 psensor
 curl
-quagga
 adobe-flashplugin
+
+ssh
+quagga
 
 ========PPA or other===================
 Chrome
