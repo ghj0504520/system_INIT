@@ -22,7 +22,7 @@
 9. valgrind  
   [source](https://launchpad.net/ubuntu/xenial/amd64/valgrind)
 10. mininet  
-  [source]()
+  [source](https://launchpad.net/ubuntu/xenial/amd64/mininet)
 11. npm  
   [source](https://launchpad.net/ubuntu/xenial/amd64/npm)
 12. p7zip-full  
@@ -65,13 +65,13 @@
 8. nvm  
   [source](https://github.com/creationix/nvm)	
 9. go  
-  [source](https://launchpad.net/~ubuntu-lxc/+archive/ubuntu/lxd-stable)
+  [source](https://golang.org/dl/)
 10. eclipse  
   [source](https://www.eclipse.org/downloads/eclipse-packages/)
 11. webstorm  
   [source](https://www.jetbrains.com/webstorm/download)
 12. intelliJ  
-  [source](https://www.jetbrains.com/webstorm/download)
+  [source](https://www.jetbrains.com/idea/download)
 13. LNMP  
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
