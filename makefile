@@ -150,3 +150,9 @@ Git:
 Ssh:
 	sudo apt -y -f install openssh-server
 	sudo gedit /etc/ssh/sshd_config
+
+
+Quagga:
+	sudo apt install quagga
+	sudo nano /etc/quagga/daemons
+

@@ -1,0 +1,21 @@
+download intelliJ tar.gz file
+
+$sudo tar -zxvf WebStorm-xxxx.x.tar.gz -C /opt
+
+$sudo ln -s /opt/WebStorm-xxx.xxx.xxx/bin/webstorm.sh /usr/local/bin/
+
+$sudo vim /usr/share/applications/webstorm.desktop
+====================================
+[Desktop Entry]
+Name=Webstorm
+Type=Application
+Exec=/opt/WebStorm-xxx.xxx.xxx/bin/webstorm.sh
+Terminal=false
+Icon=/opt/WebStorm-xxx.xxx.xxx/bin/webstorm.svg
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE
+Name[en]=Webstorm
+====================================
+
+use license server to register webstorm

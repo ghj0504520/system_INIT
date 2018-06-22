@@ -45,8 +45,10 @@
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
 21. psensor  
   [source](https://launchpad.net/ubuntu/xenial/amd64/psensor)
-22. curl
+22. curl  
   [source](https://launchpad.net/ubuntu/xenial/amd64/curl)
+23. quagga  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/quagga)
 
 ##### PPA or Other
 ***
@@ -78,4 +80,6 @@
   [nginx](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
   [php-7.0](http://php.net/downloads.php)
   [mysql](https://www.mysql.com/downloads/)
+14. ONOS  
+  [source](https://github.com/opennetworkinglab/onos.git)
 
