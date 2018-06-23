@@ -46,7 +46,7 @@
 
 
 21. mininet  
-  [mininet source](https://launchpad.net/ubuntu/xenial/amd64/mininet)
+  [mininet source](https://launchpad.net/ubuntu/xenial/amd64/mininet)  
   [ovs-ctl source](https://launchpad.net/ubuntu/xenial/amd64/openvswitch-testcontroller)
 22. vsftpd  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vsftpd)
