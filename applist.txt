@@ -78,4 +78,11 @@ backup fstab
 modify /etc/fstab
 	noatime,nodiratime,discard,errors=remount-ro  
 
+========logitech=======================
+logitech-move
+	xinput set-prop "Logitech USB Trackball" "Evdev Wheel Emulation" 1
+logitech-set
+	xinput set-prop "Logitech USB Trackball" "Evdev Wheel Emulation Button" 9
+
+
 
