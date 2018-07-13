@@ -48,11 +48,15 @@
 21. mininet  
   [mininet source](https://launchpad.net/ubuntu/xenial/amd64/mininet)  
   [ovs-ctl source](https://launchpad.net/ubuntu/xenial/amd64/openvswitch-testcontroller)
-22. vsftpd  
+22. latex  
+  [source](https://launchpad.net/ubuntu/xenial/amd64/texlive)
+  [source](https://launchpad.net/ubuntu/xenial/amd64/texlive-xetex)
+  [source](https://launchpad.net/ubuntu/xenial/amd64/texmaker)
+23. vsftpd  
   [source](https://launchpad.net/ubuntu/xenial/amd64/vsftpd)
-23. ssh  
+24. ssh  
   [source](https://launchpad.net/ubuntu/xenial/amd64/openssh-server)
-24. quagga  
+25. quagga  
   [source](https://launchpad.net/ubuntu/xenial/amd64/quagga)
 
 ##### PPA or Other

@@ -21,6 +21,7 @@ curl
 adobe-flashplugin
 
 mininet(with openvswitch-testcontroller)
+latex(with texmaker)
 vsftpd
 ssh
 quagga
@@ -84,5 +85,6 @@ logitech-move
 logitech-set
 	xinput set-prop "Logitech USB Trackball" "Evdev Wheel Emulation Button" 9
 
-
+========latex==========================
+change command from latex to xelatex
 
