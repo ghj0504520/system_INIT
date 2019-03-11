@@ -144,7 +144,7 @@ LNMP:
 LATEX:
 	sudo apt install texlive texlive-xetex 
 	sudo apt install texmaker
-
+	sudo apt install texlive-full
 MN:
 	sudo apt -y -f install mininet
 	sudo apt -y -f install openvswitch-testcontroller
