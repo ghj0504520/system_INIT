@@ -84,7 +84,8 @@ logitech-move
 	xinput set-prop "Logitech USB Trackball" "Evdev Wheel Emulation" 1
 logitech-set
 	xinput set-prop "Logitech USB Trackball" "Evdev Wheel Emulation Button" 9
-
+logitech-move for 22.04 later
+	gsettings set org.gnome.desktop.peripherals.trackball scroll-wheel-emulation-button 9
 ========latex==========================
 change command from latex to xelatex
 
